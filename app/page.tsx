@@ -11,6 +11,7 @@ import { classNames } from "@/util";
 import FAQSection from "@/components/FAQSection";
 import PaymentDialog from "@/components/PaymentDialog";
 import StartedDialog from "@/components/StartedDialog";
+import Footer from "@/components/Footer";
 
 const models = [
   {
@@ -130,14 +131,16 @@ export default function Home() {
               <div className="col-span-7 ">
                 <div>
                   <h1 className="text-6xl font-semibold tracking-tight text-gray-900">
-                    Next Gen
+                    Experience
+                  </h1>
+                  <h1 className="text-6xl font-semibold tracking-tight text-blue-500">
+                    AI-powered
                   </h1>
                   <h1 className="text-6xl font-semibold tracking-tight text-gray-900">
-                    Personalized Emails
+                    Email Marketing
                   </h1>
                   <p className="mt-6 text-lg text-gray-700 max-w-xl">
-                    Increase conversion rates with automatically generated
-                    emails designed for the individual.
+                    We sync with your data in realtime, ensuring each email is catered indvidiually to your customers, boosting conversion rates and engagement.
                   </p>
                   <form
                     className="mt-6 flex max-w-md gap-x-4"
@@ -191,11 +194,11 @@ export default function Home() {
                     />
                   </svg>
                   <h1 className="text-xl tracking-tight">
-                    Streamlined Data Format
+                      AI Trained on Your Data
                   </h1>
                 </span>
                 <p className="mt-2 text-gray-700">
-                  JSON and JSONL formats are supported accross all models.
+                  Choose the attributes of users you want included and our AI will use your realtime data to generate hyper-personalized emails.
                 </p>
               </div>
               <div className="sm:flex-1">
@@ -215,12 +218,11 @@ export default function Home() {
                     />
                   </svg>
                   <h1 className="text-xl tracking-tight">
-                    No Fine Tuning Errors
+                    Optimize Emails For Conversion Rates
                   </h1>
                 </span>
                 <p className="mt-2 text-gray-700">
-                  You don&apos;t have to worry about training failing because of
-                  a library error, or burn money trying to get scripts to work.
+                  Not only do we personalize emails, we also find and target customers identified as most likely to convert.
                 </p>
               </div>
 
@@ -245,9 +247,7 @@ export default function Home() {
                   </h1>
                 </span>
                 <p className="mt-2 text-gray-700">
-                  The datasets you upload are only used to train your model. You
-                  also have full <strong>local</strong> access to your model
-                  after fine tuning is complete.
+                  As soon as emails are generated, your data is cleared from our servers. We never store your data.
                 </p>
               </div>
             </div>
@@ -403,6 +403,7 @@ export default function Home() {
             </div>
           </div>
           <FAQSection />
+          <Footer/>
         </div>
       </div>
     </>

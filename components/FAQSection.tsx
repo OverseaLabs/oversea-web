@@ -3,19 +3,19 @@ import { ChevronDownIcon } from "@heroicons/react/24/outline";
 
 const faqs = [
   {
-    question: "Is my data used to train other models?",
+    question: "How do we access your realtime data?",
     answer:
-      "No! The data you upload is only used to train your own model, with your permission. We never look at or download your datasets.",
+      "We provide integrations directly to you to extract meaningful data, which can be used as context for our models. You choose which data gets sent to our platform.",
   },
   {
-    question: "How long does training take?",
+    question: "Do you integrate with my email provider?",
     answer:
-      "It varies by dataset. In general, it shouldn't take more than a few hours for most datasets. I personally fine tuned llama on a 42mb json file in about an hour.",
+      "We currently support Gmail, Outlook, and Yahoo. We are working on integrations for other email providers. If you have a specific request, please contact us.",
   },
   {
-    question: "What model format will I receive my model in?",
+    question: "Is the process completely automated, or do I have some control over emails being sent??",
     answer:
-      'Your model will be trained using the QLora method, but you will receive a merged model <a href="./output.png">',
+      'You have complete control over the email sending schedule and budget. You can also choose to send emails manually. We provide a dashboard to manage your emails and view communication hisotry with users.',
   },
   // More questions...
 ];
