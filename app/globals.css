@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  /* font-family: "Public Sans", sans-serif; */
+  /* font-family: "Space Grotesk", sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+
+.mono {
+  font-family: "JetBrains Mono", monospace !important;
+}
+
+.mono * {
+  font-family: "JetBrains Mono", monospace !important;
+}
